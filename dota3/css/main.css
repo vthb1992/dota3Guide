@@ -1,0 +1,424 @@
+body{
+	background:url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	color:white;	
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+a{
+	text-decoration:none;
+	color:orange;
+}
+#main{
+	margin-top:20px;
+	padding:4em;
+}
+#mainnav{
+	margin-top:2em;
+	margin-bottom:1em;
+}
+#mainnav li {
+	display:inline;
+}
+#mainnav li a{
+	padding:10px 30px;
+	background: #272727;
+}
+#mainnav li a:hover{
+	background: #383838 !important;
+}
+#wrapper{
+	max-width:1280px;
+	position:relative;
+	margin:0 auto;
+}
+#content{
+	background-color:rgba(0, 0, 0, 0.6);
+    min-width: 818px;
+
+}
+#loginbar li{
+	display: inline;
+	padding: 0 2em;
+}
+
+#loginbar{
+	text-align:right;
+}
+#newbuild{
+	text-align: center;
+}
+#newbuild a{
+	font-size: 2em;
+	background: #292929;
+	width: 8em;
+	border-radius: 9px;
+	padding: 0.3em 2em;
+}
+
+#newbuild a:hover{
+	background: #383838 !important;
+	border: 1px solid orange;
+}
+
+.heroicon{
+	float:left;
+	background: none repeat scroll 0 0 #000000;
+	border: 1px solid #242833;
+	color: #FFFFFF;
+	display: block;
+	margin: 5px;
+	padding: 3px;
+	text-align: center;
+	width: 90px;
+	cursor:pointer;
+}
+a.heroicon:hover{
+	background: none repeat scroll 0 0 #000000;
+	border: 1px solid orange;
+	color: #FFFFFF;
+}
+.heroname{
+	background: none repeat scroll 0 0 #202020;
+	margin-top: 3px;
+	padding: 4px;
+	font-size: 12px;
+	height: 28px;
+	overflow: hidden;
+}
+#heroform{
+	min-height:105px;
+	width:100%;
+}
+.horange{
+	color:orange;
+}
+.hogreen{
+	color:rgb(79, 197, 0);
+}
+.herotooltip, #heroinfo{
+	padding: 1em 2em;
+}
+#heroinfo{
+}
+.herotooltip table, #heroinfotext table{
+	color:white;
+	font-size:0.8em
+}
+.herotoolinfo td, .itemtoolinfo td{	
+	border:none;
+	vertical-align:middle;
+	color:white;
+	font-size:11px;
+}
+.herotoolinfo img, .itemtoolinfo img{	
+	vertical-align:middle;
+}
+#heroinfocallback , #heroitems , #herocommentarea{
+	float:left;
+}
+#heroitems{
+	width:530px;
+}
+#herocommentarea{
+	clear:both;
+}
+.items{
+	background-image:url(../img/asset/item.png);
+	width:41px;
+	height:41px;
+	cursor:pointer;
+}
+.items img{
+	width: 37px;
+	height: 37px;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+.items div{
+	display:none;
+}
+.itemiconi{
+	float: left;
+	background: none repeat scroll 0 0 #000000;
+	border: 1px solid #242833;
+	color: #FFFFFF;
+	display: block;
+	margin: 5px;
+	padding: 3px;
+	text-align: center;
+	width: 90px;
+	cursor: pointer;
+	height: 112px;
+}
+.itemslots{
+float:left;
+padding-left:20px;
+}
+.slotheader{
+color:pink;
+text-align:center;
+}
+#herocontainer{
+display:none;
+}
+#itemcontainer{
+display:none;
+}
+#guidename{
+width: 564px;
+padding: 18px;
+font-size: 28px;
+border-radius: 16px 16px 0px 0px;
+}
+
+.guidenamesub{
+margin-left: 88px;
+margin-top: -25px;
+position: absolute;
+color: rgb(134, 134, 134);
+font-size: 11px;
+}
+.timesub{
+position: absolute;
+color: rgb(134, 134, 134);
+font-size: 11px;
+}
+
+.mainpgitem{
+width: 41px;
+height: 40px;
+}
+.homeguides{
+padding:10px 25px;
+}
+.homeguides:hover{
+border:orange 2px solid;
+cursor:pointer;
+border-radius: 16px;
+}
+.homeguides.even{
+background: rgba(255, 255, 255, 0.12);
+border-radius: 20px;
+}
+.guidename{
+font-size: 2em;
+display: inline;
+margin-left: 30px;
+vertical-align: top;
+font-family: fantasy;
+}
+
+.guidescore{
+color: orange;
+font-weight: bold;
+font-size: 2em;
+font-family: monospace;
+text-align:center;
+}
+
+.rating{
+background: gray;
+color: black;
+padding: 2px 20px;
+font-size: 19px;
+font-family: monospace;
+border-radius: 20px;
+}
+.ratestuff{
+float:right;
+display:inline;
+clear:both;
+}
+#guidetable{
+color:white;
+text-align:center;
+}
+#guidetable td{
+padding:10px;
+}
+#guidetext , #guidetext p{
+color:white;
+}
+#guidetext {
+background:rgba(130, 130, 130, 0.22)
+}
+.thumber{
+cursor:pointer;
+}
+
+#deletebtn{
+float: right;
+display: inline-block;
+clear: both;
+font-size: 14px;
+padding: 5px 40px;
+cursor:pointer;
+background: rgb(133, 29, 29);
+border:1px solid rgb(133, 29, 29);
+border-radius:5px;
+}
+#deletebtn:hover{
+
+background: rgb(219, 122, 122);
+}
+
+.meter { 
+	height: 10px;  
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 5px 10px;
+	-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+	-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+	box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.meter > span {
+	display: block;
+	height: 100%;
+	   -webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	       -moz-border-radius-topright: 8px;
+	    -moz-border-radius-bottomright: 8px;
+	           border-top-right-radius: 8px;
+	        border-bottom-right-radius: 8px;
+	    -webkit-border-top-left-radius: 20px;
+	 -webkit-border-bottom-left-radius: 20px;
+	        -moz-border-radius-topleft: 20px;
+	     -moz-border-radius-bottomleft: 20px;
+	            border-top-left-radius: 20px;
+	         border-bottom-left-radius: 20px;
+	background-color: rgb(43,194,83);
+	background-image: -webkit-gradient(
+	  linear,
+	  left bottom,
+	  left top,
+	  color-stop(0, rgb(43,194,83)),
+	  color-stop(1, rgb(84,240,84))
+	 );
+	background-image: -webkit-linear-gradient(
+	  center bottom,
+	  rgb(43,194,83) 37%,
+	  rgb(84,240,84) 69%
+	 );
+	background-image: -moz-linear-gradient(
+	  center bottom,
+	  rgb(43,194,83) 37%,
+	  rgb(84,240,84) 69%
+	 );
+	background-image: -ms-linear-gradient(
+	  center bottom,
+	  rgb(43,194,83) 37%,
+	  rgb(84,240,84) 69%
+	 );
+	background-image: -o-linear-gradient(
+	  center bottom,
+	  rgb(43,194,83) 37%,
+	  rgb(84,240,84) 69%
+	 );
+	-webkit-box-shadow: 
+	  inset 0 2px 9px  rgba(255,255,255,0.3),
+	  inset 0 -2px 6px rgba(0,0,0,0.4);
+	-moz-box-shadow: 
+	  inset 0 2px 9px  rgba(255,255,255,0.3),
+	  inset 0 -2px 6px rgba(0,0,0,0.4);
+	position: relative;
+	overflow: hidden;
+}
+.orange > span {
+	background-color: #f1a165;
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f1a165),color-stop(1, #f36d0a));
+	background-image: -webkit-linear-gradient(top, #f1a165, #f36d0a); 
+        background-image: -moz-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -ms-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -o-linear-gradient(top, #f1a165, #f36d0a);
+}
+
+.red > span {
+	background-color: #f0a3a3;
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f0a3a3),color-stop(1, #f42323));
+	background-image: -webkit-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -moz-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -ms-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -o-linear-gradient(top, #f0a3a3, #f42323);
+}
+
+.green > span {
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, rgb(43,194,83)),color-stop(1, rgb(84,240,84)));
+	background-image: -webkit-linear-gradient(top, rgb(43,194,83), rgb(84,240,84));
+        background-image: -moz-linear-gradient(top, rgb(43,194,83), rgb(84,240,84));
+        background-image: -ms-linear-gradient(top, rgb(43,194,83), rgb(84,240,84));
+        background-image: -o-linear-gradient(top, rgb(43,194,83), rgb(84,240,84));
+}
+
+
+/* select with CSS avatar icons */
+    option.avatar {
+      background-repeat: no-repeat !important;
+      padding-left: 20px;
+    }
+    .avatar .ui-icon {
+      background-position: left top;
+	  width:20px;
+	  height:20px;
+	  background-size: 20px 20px;
+    }
+
+	.avatar .ui-menu-icons .ui-menu-item {
+padding-left: 3em;
+}
+
+#limithero-menu li{
+padding: 10px 1em 12px 3.2em;
+}
+.avatar .ui-icon {
+width: 35px;
+height: 35px;
+background-size: 35px 35px;}
+
+/*
+#preloader  {
+	position: absolute;
+	top: 100px;
+	width:1280px;
+	bottom: 0;
+	background-color: rgba(000,000,000,1);
+	z-index: 99;
+ }*/
+ #preloader  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(000,000,000,1);
+	z-index: 99;
+ }
+#status  {
+	
+ }
+ 
+#limithero{
+width:220px;
+height: 30px;
+}
+
+#sortmethod{
+width:180px;
+}
+
+#sortstyle{
+width:180px;
+}
+
+#buildsorterbtn{
+width:120px;
+height:32px;
+}
+
+.overflow {
+      height: 600px;
+    }
